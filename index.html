@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>APY Training Boutique</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="https://scontent-cdt1-1.cdninstagram.com/v/t51.2885-15/298836914_5210842532347278_2363981357317527820_n.jpg?stp=dst-jpg_e35_s240x240&_nc_ht=scontent-cdt1-1.cdninstagram.com&_nc_cat=106&_nc_ohc=Z1xkTGJDN7YAX8KC35w&edm=ABJHkxYAAAAA&ccb=7-5&ig_cache_key=MjkwMzc4NDY0OTI0NjE2MTc3Nw%3D%3D.2-ccb7-5&oh=00_AT_3YJfGqUcCZ68aeO7SdyYvZBmSryrTX41PbYZFs8kOCg&oe=6302E757&_nc_sid=fa978c"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <div id="sideNavigation" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <a href="https://marceau5674.github.io/demo12/">Retour à l'aceuil</a>
+        <a href="https://marceau5674.github.io/demob/"> Boutique</a>
+      </div>
+
+      <nav class="topnav">
+        <a href="#" onclick="openNav()">
+          <svg width="30" height="30" id="icoOpen">
+            <path d="M0,5 30,5" stroke="#000" stroke-width="5" />
+            <path d="M0,14 30,14" stroke="#000" stroke-width="5" />
+            <path d="M0,23 30,23" stroke="#000" stroke-width="5" />
+          </svg>
+        </a>
+        <div class="containeur nav">
+          <nav class="headermenu">
+            <ul>
+              <li class="li" class="deroulant" style="width: 220px">
+                <a href="https://marceau5674.github.io/demo12/"
+                  >Retour à l'acceuil &ensp;</a
+                >
+              </li>
+              <li  class="li" style="width: 130px">
+                <a href="#"> Boutique</a>
+                
+              <ul class="sous">
+                <li style="width: 130px">
+                  <a href="#">Vélo</a>
+                  <a href="#">Groupe </a>
+                </li>
+                <li style="width: 130px">
+                  
+                </li>
+                <li style="width: 130px">
+                  <a href="#"> Roulements</a>
+                  <a href="">Pneu</a>
+                </li>
+              </li>
+              
+              </ul>
+            </ul>
+          </nav>
+        </div>
+
+      </nav>
+      <div id="main">
+        <!-- Add all your websites page content here  -->
+      </div>
+      <script>
+        function openNav() {
+          document.getElementById("sideNavigation").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
+        }
+
+        function closeNav() {
+          document.getElementById("sideNavigation").style.width = "0";
+          document.getElementById("main").style.marginLeft = "0";
+        }
+      </script>
+    </header>
+    <h1>Ici vous pourrez bientôt voir nos articles en ventes.</h1>
+    
+    
+    <div class="order">
+      <div class="conta"></div>
+      <div class="contb"></div>
+    </div>
+  </body>
+</html>
